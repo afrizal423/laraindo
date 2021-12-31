@@ -1,6 +1,6 @@
 {
     "name": "afrizalmy/laraindo",
-    "description": "Package helper Laravel untuk format indonesia terdiri dari Localization, Rupiah format, Date format",
+    "description": "Package Laravel sederhana untuk format indonesia terdiri dari Localization, Rupiah format, Date format",
     "type": "library",
     "keywords": [
         "Localization",
@@ -11,7 +11,7 @@
         "indonesia"
     ],
     "require": {
-        "php": "^8.0.2",
+        "php": ">=8.0.2",
         "laravel/framework": "^9.0"
     },
     "license": "MIT",
