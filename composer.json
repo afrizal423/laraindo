@@ -11,10 +11,8 @@
         "indonesia"
     ],
     "require": {
-        "php": "^8.0.2"
-    },
-    "require-dev": {
-        "nesbot/carbon": "3.x-dev"
+        "php": "^8.0.2",
+        "laravel/framework": "^9.0"
     },
     "license": "MIT",
     "autoload": {
@@ -27,6 +25,11 @@
             "providers": [
                 "Laraindo\\LaraindoServiceProvider"
             ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Laraindo\\Test\\": "tests"
         }
     },
     "authors": [
@@ -43,5 +46,8 @@
         "source": "https://github.com/afrizal423/laraindo",
         "docs": "https://github.com/afrizal423/laraindo/README.md"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
 }
