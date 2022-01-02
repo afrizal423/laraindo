@@ -25,6 +25,15 @@ Setelah itu lalukan publish provider
 ```sh
 php artisan vendor:publish --provider='Laraindo\LaraindoServiceProvider'
 ```
+### Localization(locale)
+Untuk mengaktifkan locale, silahkan buka file config/app.php.
+Cari ```locale``` dan ```fallback_locale```, lalu ubah value menjadi ```id```
+```php
+    // file config/app.php
+    'locale' => 'id',
+
+    'fallback_locale' => 'id',
+```
 
 ## How to use
 - Rupiah format
