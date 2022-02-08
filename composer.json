@@ -1,12 +1,13 @@
 {
     "name": "afrizalmy/laraindo",
-    "description": "Package Laravel sederhana untuk format indonesia terdiri dari Localization, Rupiah format, Date format",
+    "description": "Package Laravel 9 sederhana untuk format indonesia terdiri dari Localization, Rupiah format, Date format",
     "type": "library",
     "keywords": [
         "Localization",
         "Rupiah",
         "Tanggal",
         "laravel",
+        "laravel 9",
         "indo",
         "indonesia"
     ],

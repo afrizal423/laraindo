@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Translate by Afrizal <https://saweria.co/afrizalmy>
- * Jika ada yang typo, silahkan create issue and pull request
- */
-
 return [
 
     /*
@@ -73,7 +68,6 @@ return [
     'ip' => 'Isian :attribute harus berupa alamat IP yang valid.',
     'ipv4' => 'Isian :attribute harus berupa alamat IPv4 yang valid.',
     'ipv6' => 'Isian :attribute harus berupa alamat IPv6 yang valid.',
-    'mac_address' => 'Isian :attribute harus berupa alamat MAC yang valid.',
     'json' => 'Isian :attribute harus berupa JSON string yang valid.',
     'lt' => [
         'numeric' => 'Isian :attribute harus lebih kecil dari :value.',
@@ -87,6 +81,7 @@ return [
         'string' => 'Isian :attribute harus kurang dari atau sama dengan :value karakter.',
         'array' => 'Isian :attribute tidak boleh memiliki lebih dari :value item.',
     ],
+    'mac_address' => 'Isian :attribute harus berupa alamat MAC yang valid.',
     'max' => [
         'numeric' => ':Isian attribute tidak boleh lebih besar dari :max.',
         'file' => 'Isian :attribute tidak boleh lebih besar dari :max kilobytes.',
@@ -113,6 +108,7 @@ return [
     'prohibits' => 'The :attribute field prohibits :other from being present.',
     'regex' => 'Format :attribute tidak valid.',
     'required' => 'Kolom :attribute wajib diisi.',
+    'required_array_keys' => 'Bidang :attribute harus berisi entri untuk: :nilai.',
     'required_if' => 'Bidang :attribute diperlukan ketika :other adalah :value.',
     'required_unless' => 'Bidang :attribute wajib diisi kecuali :other ada di :values.',
     'required_with' => 'Bidang :attribute diperlukan saat :values ada.',
