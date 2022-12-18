@@ -55,11 +55,12 @@ class RupiahFormat
     /**
      * currency static function untuk mengubah format rupiah
      *
-     * @param string $value
+     * @param mixed $value
      * @return string
      */
-    public static function currency(string $value) : string
+    public static function currency(mixed $value) : string
     {
+        $value = floatval($value);
         return "Rp. " . number_format($value,0,',','.');
     }
 }
