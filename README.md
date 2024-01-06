@@ -42,12 +42,12 @@ Cari ```locale``` dan ```fallback_locale```, lalu ubah value menjadi ```id```
         use Laraindo\RupiahFormat; //import
 
         RupiahFormat::currency(1000000);
-        // Rp. 1.000.000
+        // Rp1.000.000
         ```
     - melalui blade
         ```php
         @RupiahFormat(1000000)
-        // Rp. 1.000.000
+        // Rp1.000.000
         ```
 - Terbilang Rupiah
     - melalui controller atau model
