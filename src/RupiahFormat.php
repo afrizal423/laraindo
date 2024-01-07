@@ -61,6 +61,6 @@ class RupiahFormat
     public static function currency(mixed $value) : string
     {
         $value = floatval($value);
-        return "Rp. " . number_format($value,0,',','.');
+        return "Rp" . number_format($value,0,',','.');
     }
 }
